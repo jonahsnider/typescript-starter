@@ -62,6 +62,7 @@
 		"style": "prettier --ignore-path .gitignore --check \"./**/*.{{j,t}{s,sx},flow,{sc,c,le}ss,json,m{d,dx},{y,ya}ml}\"",
 		"test": "nyc ava"
 	},
+	"version": "1.0.0",
 	"xo": {
 		"extends": "xo-typescript",
 		"extensions": [
