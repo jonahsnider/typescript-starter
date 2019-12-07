@@ -56,7 +56,8 @@
 		"url": "git+https://github.com/pizzafox/typescript-starter.git"
 	},
 	"scripts": {
-		"build": "rm -rf tsc_output; tsc",
+		"prebuild": "rm -rf tsc_output",
+		"build": "tsc",
 		"lint": "xo",
 		"pretest": "rm -rf coverage .nyc_output",
 		"style": "prettier --ignore-path .gitignore --check \"./**/*.{{j,t}{s,sx},flow,{sc,c,le}ss,json,m{d,dx},{y,ya}ml}\"",
