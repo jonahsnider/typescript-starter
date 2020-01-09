@@ -21,7 +21,7 @@
 		"url": "https://github.com/pizzafox/typescript-starter/issues"
 	},
 	"devDependencies": {
-		"@istanbuljs/nyc-config-typescript": "^1.0.0",
+		"@istanbuljs/nyc-config-typescript": "^1.0.1",
 		"@typescript-eslint/eslint-plugin": "^2.15.0",
 		"@typescript-eslint/parser": "^2.15.0",
 		"ava": "^2.4.0",
