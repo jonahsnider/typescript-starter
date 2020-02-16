@@ -16,7 +16,7 @@ jobs:
       - name: Setup Node.js for use with Actions
         uses: actions/setup-node@v1
         with:
-          node-version: '12.14.1'
+          node-version: '12.16.0'
       - name: Install Yarn
         run: curl -o- -L https://yarnpkg.com/install.sh | bash
       - name: Get yarn cache
@@ -51,7 +51,7 @@ jobs:
       - name: Setup Node.js for use with Actions
         uses: actions/setup-node@v1
         with:
-          node-version: '12.14.1'
+          node-version: '12.16.0'
       - name: Install Yarn
         run: curl -o- -L https://yarnpkg.com/install.sh | bash
       - name: Get yarn cache
@@ -66,8 +66,8 @@ jobs:
             ${{ runner.os }}-yarn-
       - name: Install dependencies with Yarn
         run: yarn install
-      - name: Lint with XO
-        run: yarn run xo
+      - name: Lint
+        run: yarn run lint
   style:
     name: Check style
 
@@ -81,7 +81,7 @@ jobs:
       - name: Setup Node.js for use with Actions
         uses: actions/setup-node@v1
         with:
-          node-version: '12.14.1'
+          node-version: '12.16.0'
       - name: Install Yarn
         run: curl -o- -L https://yarnpkg.com/install.sh | bash
       - name: Get yarn cache
@@ -96,7 +96,7 @@ jobs:
             ${{ runner.os }}-yarn-
       - name: Install dependencies with Yarn
         run: yarn install
-      - name: Check style with Prettier
+      - name: Check style
         run: yarn run style
   test:
     name: Run unit tests
@@ -111,7 +111,7 @@ jobs:
       - name: Setup Node.js for use with Actions
         uses: actions/setup-node@v1
         with:
-          node-version: '12.14.1'
+          node-version: '12.16.0'
       - name: Install Yarn
         run: curl -o- -L https://yarnpkg.com/install.sh | bash
       - name: Get yarn cache
