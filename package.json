@@ -21,7 +21,7 @@
 	},
 	"devDependencies": {
 		"@istanbuljs/nyc-config-typescript": "^1.0.1",
-		"@typescript-eslint/eslint-plugin": "^2.19.2",
+		"@typescript-eslint/eslint-plugin": "^2.21.0",
 		"@typescript-eslint/parser": "^2.19.2",
 		"ava": "^3.3.0",
 		"eslint-config-xo-typescript": "^0.26.0",
