@@ -10,15 +10,11 @@ jobs:
 
     steps:
       - name: Checkout git repository
-        uses: actions/checkout@v1
-        with:
-          fetch-depth: 0
+        uses: actions/checkout@v2
       - name: Setup Node.js for use with Actions
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v2
         with:
-          node-version: '12.16.0'
-      - name: Install Yarn
-        run: curl -o- -L https://yarnpkg.com/install.sh | bash
+          node-version: '12.16.1'
       - name: Get yarn cache
         id: yarn-cache
         run: echo "::set-output name=dir::$(yarn cache dir)"
@@ -45,15 +41,11 @@ jobs:
 
     steps:
       - name: Checkout git repository
-        uses: actions/checkout@v1
-        with:
-          fetch-depth: 0
+        uses: actions/checkout@v2
       - name: Setup Node.js for use with Actions
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v2
         with:
-          node-version: '12.16.0'
-      - name: Install Yarn
-        run: curl -o- -L https://yarnpkg.com/install.sh | bash
+          node-version: '12.16.1'
       - name: Get yarn cache
         id: yarn-cache
         run: echo "::set-output name=dir::$(yarn cache dir)"
@@ -75,15 +67,11 @@ jobs:
 
     steps:
       - name: Checkout git repository
-        uses: actions/checkout@v1
-        with:
-          fetch-depth: 0
+        uses: actions/checkout@v2
       - name: Setup Node.js for use with Actions
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v2
         with:
-          node-version: '12.16.0'
-      - name: Install Yarn
-        run: curl -o- -L https://yarnpkg.com/install.sh | bash
+          node-version: '12.16.1'
       - name: Get yarn cache
         id: yarn-cache
         run: echo "::set-output name=dir::$(yarn cache dir)"
@@ -105,15 +93,11 @@ jobs:
 
     steps:
       - name: Checkout git repository
-        uses: actions/checkout@v1
-        with:
-          fetch-depth: 0
+        uses: actions/checkout@v2
       - name: Setup Node.js for use with Actions
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v2
         with:
-          node-version: '12.16.0'
-      - name: Install Yarn
-        run: curl -o- -L https://yarnpkg.com/install.sh | bash
+          node-version: '12.16.1'
       - name: Get yarn cache
         id: yarn-cache
         run: echo "::set-output name=dir::$(yarn cache dir)"
