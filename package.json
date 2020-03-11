@@ -27,7 +27,7 @@
 		"source-map-support": "^0.5.16",
 		"ts-node": "^8.6.2",
 		"typescript": "^3.8.3",
-		"xo": "^0.27.2"
+		"xo": "^0.28.0"
 	},
 	"engines": {
 		"node": "12"
