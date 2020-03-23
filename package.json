@@ -56,7 +56,7 @@
 		"lint": "xo",
 		"prebuild": "rm -rf tsc_output",
 		"pretest": "rm -rf coverage .nyc_output",
-		"style": "prettier --ignore-path .gitignore --check \"./**/*.{{j,t}{s,sx},flow,{sc,c,le}ss,json,m{d,dx},{y,ya}ml}\"",
+		"style": "prettier --ignore-path .gitignore --check .",
 		"test": "nyc ava"
 	},
 	"version": "1.0.0",
