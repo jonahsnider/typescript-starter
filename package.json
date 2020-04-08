@@ -21,7 +21,7 @@
 	},
 	"devDependencies": {
 		"@istanbuljs/nyc-config-typescript": "^1.0.1",
-		"ava": "^3.5.2",
+		"ava": "^3.6.0",
 		"nyc": "^15.0.1",
 		"prettier": "^1.19.1",
 		"source-map-support": "^0.5.16",
