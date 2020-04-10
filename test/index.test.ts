@@ -1,7 +1,7 @@
-import test from 'ava';
+import test, {ExecutionContext} from 'ava';
 import {helloWorld} from '../src';
 
-test('hello world', t => {
+test('hello world', (t: Readonly<ExecutionContext<unknown>>) => {
 	t.is(helloWorld(), 'Hello, world.', 'says hello world when subject is not provided');
 	t.is(helloWorld('TypeScript'), 'Hello, TypeScript.', 'uses subject param when provided');
 });
