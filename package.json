@@ -62,6 +62,14 @@
 	},
 	"version": "1.0.0",
 	"xo": {
-		"prettier": true
+		"prettier": true,
+		"overrides": [
+			{
+				"files": "**/*.test.ts",
+				"rules": {
+					"@typescript-eslint/prefer-readonly-parameter-types": "off"
+				}
+			}
+		]
 	}
 }
