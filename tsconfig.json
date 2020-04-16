@@ -9,5 +9,5 @@
 		"target": "es2018"
 	},
 	"exclude": ["node_modules", "nyc_output", "coverage"],
-	"include": ["src", "test"]
+	"include": ["src"]
 }

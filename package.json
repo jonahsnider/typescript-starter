@@ -34,7 +34,7 @@
 		"node": "12"
 	},
 	"license": "Apache-2.0",
-	"main": "./tsc_output/src/index.js",
+	"main": "./tsc_output/index.js",
 	"name": "typescript-starter",
 	"nyc": {
 		"all": true,
