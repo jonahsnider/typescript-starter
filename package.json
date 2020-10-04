@@ -26,7 +26,6 @@
 		"prettier": "2.0.4",
 		"source-map-support": "0.5.19",
 		"ts-node": "9.0.0",
-		"type-fest": "0.17.0",
 		"typescript": "3.9.7",
 		"xo": "0.33.1"
 	},
