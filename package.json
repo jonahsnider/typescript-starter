@@ -22,6 +22,7 @@
 	"devDependencies": {
 		"@istanbuljs/nyc-config-typescript": "1.0.1",
 		"ava": "3.13.0",
+		"eslint-plugin-prettier": "3.1.4",
 		"nyc": "15.1.0",
 		"prettier": "2.1.2",
 		"prettier-config-xo": "1.0.3",
