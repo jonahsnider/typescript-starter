@@ -55,7 +55,7 @@
 		"lint": "xo",
 		"prebuild": "rm -rf tsc_output",
 		"pretest": "rm -rf coverage .nyc_output",
-		"style": "prettier --ignore-path .gitignore --check .",
+		"style": "prettier --check .",
 		"test": "nyc ava"
 	},
 	"version": "1.0.0",
