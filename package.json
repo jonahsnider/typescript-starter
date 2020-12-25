@@ -60,6 +60,9 @@
 	},
 	"version": "1.0.0",
 	"xo": {
-		"prettier": true
+		"prettier": true,
+		"rules": {
+			"prettier/prettier": "off"
+		}
 	}
 }
