@@ -194,3 +194,4 @@ tsc_output
 
 # Yarn
 .yarn/*
+.pnp.*
