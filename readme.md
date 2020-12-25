@@ -6,26 +6,26 @@
 
 My personal TypeScript starter template.
 
-## Prequisites
+## Contributing
 
-This project uses [Node.js](https://nodejs.org) 12 to run.
+### Prequisites
 
-This project uses [Yarn](https://yarnpkg.com) to install dependencies, although you can use another package manager like [npm](https://www.npmjs.com) or [pnpm](https://pnpm.js.org).
+This project uses [Node.js](https://nodejs.org) to run, so make sure you've got a recent version installed.
+
+This project uses [Yarn](https://yarnpkg.com) 2 to manage dependencies and run scripts.
+After cloning the repository you can use this command to install dependencies:
 
 ```sh
-yarn install
-# or `npm install`
-# or `pnpm install`
+yarn
 ```
 
-## Building
+### Building
 
-Run the `build` script to compile the TypeScript into the `tsc_output` folder.
-This will compile the `src` and the `test` directory, so be careful not to upload the whole folder as a published package.
+Run the `build` script to compile the TypeScript source code into JavaScript in the `tsc_output` folder.
 
-## Style
+### Style
 
-This project uses [Prettier](https://prettier.io) and [XO](https://github.com/xojs/xo).
+This project uses [Prettier](https://prettier.io) to validate the formatting and style across the codebase.
 
 You can run Prettier in the project with this command:
 
@@ -33,26 +33,16 @@ You can run Prettier in the project with this command:
 yarn run style
 ```
 
-You can run XO with this command:
+### Linting
+
+This project uses [XO](https://github.com/xojs/xo) (which uses [ESLint](https://eslint.org) and some plugins internally) to perform static analysis of the source code.
+It reports issues like unused variables or not following best practices to ensure the project is well-written.
 
 ```sh
 yarn run lint
 ```
 
-Note that XO will also error if you have TypeScript errors, not just if your formatting is incorrect.
-
-## Linting
-
-This project uses [XO](https://github.com/xojs/xo) (which uses [ESLint](https://eslint.org) and some plugins internally) to perform static analysis on the TypeScript.
-It reports things like unused variables or not following code conventions.
-
-```sh
-yarn run lint
-```
-
-Note that XO will also error if you have incorrect formatting, not just if your TypeScript code has errors.
-
-## Testing
+### Testing
 
 Unit tests are in the `test` folder.
 You can run the tests with the `test` script:
@@ -61,7 +51,7 @@ You can run the tests with the `test` script:
 yarn run test
 ```
 
-### Coverage
+#### Coverage
 
 This will generate a `coverage` folder which has a breakdown of coverage of the project.
 The CI will upload the coverage information to [CodeCov](https://codecov.io) which can be [viewed here](https://codecov.io/gh/pizzafox/typescript-starter).
