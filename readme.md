@@ -44,7 +44,7 @@ yarn run lint
 
 ### Testing
 
-Unit tests are in the `test` folder.
+Unit tests are stored alongside source files (ex. `config.ts` would have `config.test.ts`).
 You can run the tests with the `test` script:
 
 ```sh
