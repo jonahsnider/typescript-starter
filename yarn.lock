@@ -2692,7 +2692,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-prettier@npm:3.3.0, eslint-plugin-prettier@npm:^3.3.0":
+"eslint-plugin-prettier@npm:3.3.1":
+  version: 3.3.1
+  resolution: "eslint-plugin-prettier@npm:3.3.1"
+  dependencies:
+    prettier-linter-helpers: ^1.0.0
+  peerDependencies:
+    eslint: ">=5.0.0"
+    prettier: ">=1.13.0"
+  peerDependenciesMeta:
+    eslint-config-prettier:
+      optional: true
+  checksum: cf35b0f0e9ef30782fe82913db92f6874181723d77f0c4613f9d69c87069f73d0dc420ef850ebc844613c00a8e87eb9762a36b7d028334c5c7b091763118347b
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-prettier@npm:^3.3.0":
   version: 3.3.0
   resolution: "eslint-plugin-prettier@npm:3.3.0"
   dependencies:
@@ -7562,7 +7577,7 @@ resolve@^1.17.0:
   dependencies:
     "@istanbuljs/nyc-config-typescript": 1.0.1
     ava: 3.15.0
-    eslint-plugin-prettier: 3.3.0
+    eslint-plugin-prettier: 3.3.1
     nyc: 15.1.0
     prettier: 2.2.1
     prettier-config-xo: 1.0.3
