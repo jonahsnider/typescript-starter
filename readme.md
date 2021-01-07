@@ -2,7 +2,7 @@
 
 [![Build Status](https://github.com/pizzafox/typescript-starter/workflows/CI/badge.svg)](https://github.com/pizzafox/typescript-starter/actions)
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo)
-[![codecov](https://codecov.io/gh/pizzafox/typescript-starter/branch/master/graph/badge.svg)](https://codecov.io/gh/pizzafox/typescript-starter)
+[![codecov](https://codecov.io/gh/pizzafox/typescript-starter/branch/main/graph/badge.svg)](https://codecov.io/gh/pizzafox/typescript-starter)
 
 My personal TypeScript starter template.
 
