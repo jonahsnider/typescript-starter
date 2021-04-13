@@ -1,8 +1,8 @@
 # [TypeScript](https://www.typescriptlang.org) Starter
 
-[![Build Status](https://github.com/jonahsnider/typescript-starter/workflows/CI/badge.svg)](https://github.com/jonahsnider/typescript-starter/actions)
+[![Build Status](https://github.com/jonahsniderder/typescript-starter/workflows/CI/badge.svg)](https://github.cjonahsnidersnider/typescript-starter/actions)
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo)
-[![codecov](https://codecov.io/gh/jonahsnider/typescript-starter/branch/main/graph/badge.svg)](https://codecov.io/gh/jonahsnider/typescript-starter)
+[![codecov](https://codecov.io/gh/jonahsniderder/typescript-starter/branch/main/graph/badge.svg)](https://codecov.io/jonahsnidersnider/typescript-starter)
 
 My personal TypeScript starter template.
 
@@ -54,4 +54,4 @@ yarn run test
 #### Coverage
 
 This will generate a `coverage` folder which has a breakdown of coverage of the project.
-The CI will upload the coverage information to [CodeCov](https://codecov.io) which can be [viewed here](https://codecov.io/gh/jonahsnider/typescript-starter).
+The CI will upload the coverage information to [CodeCov](https://codecov.io) which can be [viewed here](https://codecov.io/gh/jonahsniderder/typescript-starter).
