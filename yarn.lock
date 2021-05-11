@@ -7768,7 +7768,7 @@ fsevents@~2.1.2:
     source-map-support: 0.5.19
     ts-node: 9.1.1
     typescript: 4.2.4
-    xo: 0.40.0
+    xo: 0.40.1
   languageName: unknown
   linkType: soft
 
@@ -8133,9 +8133,9 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"xo@npm:0.40.0":
-  version: 0.40.0
-  resolution: "xo@npm:0.40.0"
+"xo@npm:0.40.1":
+  version: 0.40.1
+  resolution: "xo@npm:0.40.1"
   dependencies:
     "@eslint/eslintrc": ^0.4.1
     "@typescript-eslint/eslint-plugin": ^4.22.0
@@ -8185,7 +8185,7 @@ fsevents@~2.1.2:
     update-notifier: ^5.1.0
   bin:
     xo: cli.js
-  checksum: 7aac5c09b418e9a904fe7b4857f8800d939cf5dd3eca9df417c49c1d38019ae5dc7785ec668a9e34e8435094eeedf247c92e00621fd0c17ef38071a10c7da019
+  checksum: 93fb876711d04613ef75f2d87cc33382412a4b4eb1d919e41624f3bba9f100cd558faa7146055384fd99c2747bbed84162cd721acd8529fcdde486092b3d9080
   languageName: node
   linkType: hard
 
