@@ -1342,22 +1342,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"boxen@npm:^5.0.0":
-  version: 5.0.1
-  resolution: "boxen@npm:5.0.1"
-  dependencies:
-    ansi-align: ^3.0.0
-    camelcase: ^6.2.0
-    chalk: ^4.1.0
-    cli-boxes: ^2.2.1
-    string-width: ^4.2.0
-    type-fest: ^0.20.2
-    widest-line: ^3.1.0
-    wrap-ansi: ^7.0.0
-  checksum: 7ebc1a33d19630e1272a6fa81b500399b9d8d5fea0fc027da36573b7e3dccb63e67ea6e804e9ac72fab576cbba1dc98b149285ae87f72fb8280acd18e273a332
-  languageName: node
-  linkType: hard
-
 "brace-expansion@npm:^1.1.7":
   version: 1.1.11
   resolution: "brace-expansion@npm:1.1.11"
@@ -1632,13 +1616,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"camelcase@npm:^6.2.0":
-  version: 6.2.0
-  resolution: "camelcase@npm:6.2.0"
-  checksum: 654700600a80cb1f06ab85b3e2fe80333f94b441884d40826becdac549774f51b0317c6dcb6040416df26241fa9481eb58d0c1659d4d6d5627dcd4259be61beb
-  languageName: node
-  linkType: hard
-
 "caniuse-lite@npm:^1.0.30001219":
   version: 1.0.30001223
   resolution: "caniuse-lite@npm:1.0.30001223"
@@ -1797,13 +1774,6 @@ __metadata:
   version: 2.2.0
   resolution: "cli-boxes@npm:2.2.0"
   checksum: db0db07e6984456140f3880180582b13c71abf31b8e74842f298d80a21a2655bdb0025645f92b3fbc384daa6b6b3b1b4ea67ce9219984a8aa6ae06fca2d6296a
-  languageName: node
-  linkType: hard
-
-"cli-boxes@npm:^2.2.1":
-  version: 2.2.1
-  resolution: "cli-boxes@npm:2.2.1"
-  checksum: 1d39df5628a44779727cc32496fff73933f22723c0ef572c043a3fa5d9b4b88024416ff92db582076b275bdf7d7f460fc7e5fa7eb8e88d3226f08233963083a7
   languageName: node
   linkType: hard
 
@@ -3645,15 +3615,6 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"global-dirs@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "global-dirs@npm:3.0.0"
-  dependencies:
-    ini: 2.0.0
-  checksum: 6dc9b39f0730ec7946ba992c0e9a991c8af6d1b7e691915c86edc17af27d369948dedef031fab56d094fc2fdb2ecd92d78a6179212f1fd292c337214483c55b6
-  languageName: node
-  linkType: hard
-
 "globals@npm:^11.1.0":
   version: 11.12.0
   resolution: "globals@npm:11.12.0"
@@ -4076,13 +4037,6 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"ini@npm:2.0.0":
-  version: 2.0.0
-  resolution: "ini@npm:2.0.0"
-  checksum: 4ad34607409491b6ebe8e7b1e6b06ad1c147851cae5838186e27a906bf33abc1511fb539df7b96bdf8993fc0f81fd3f1e5995812fb616a965d8d4d4ad738bcf5
-  languageName: node
-  linkType: hard
-
 "ini@npm:^1.3.5, ini@npm:~1.3.0":
   version: 1.3.8
   resolution: "ini@npm:1.3.8"
@@ -4351,16 +4305,6 @@ fsevents@~2.1.2:
     global-dirs: ^2.0.1
     is-path-inside: ^3.0.1
   checksum: 10fc4fb09fe86c0ed5fa21e821607c6e1ca258386787b1aaad3afbe59470d0c3b50b076cbc996173b9b4c0de7d6a8b741aabf9229ab09d6c37ff663e51631529
-  languageName: node
-  linkType: hard
-
-"is-installed-globally@npm:^0.4.0":
-  version: 0.4.0
-  resolution: "is-installed-globally@npm:0.4.0"
-  dependencies:
-    global-dirs: ^3.0.0
-    is-path-inside: ^3.0.2
-  checksum: 65b7adc2ee0c3fcceee14fee9c86341756ccaaaf3cbf42552023d52c62f5d8d49a52e93ffaea2608c9cc6d7ac900cb0b4f6efbd04c9481bb802a96ea4898d0f8
   languageName: node
   linkType: hard
 
@@ -7809,7 +7753,7 @@ fsevents@~2.1.2:
     source-map-support: 0.5.19
     ts-node: 10.0.0
     typescript: 4.2.4
-    xo: 0.40.2
+    xo: 0.40.3
   languageName: unknown
   linkType: soft
 
@@ -7909,28 +7853,6 @@ fsevents@~2.1.2:
     semver-diff: ^3.1.1
     xdg-basedir: ^4.0.0
   checksum: 1c1caae030b9c0ac3539baf2a821f3a104f91003afbbb3c3cd79a8c7d76f53055edaeb64773ba79b9433c0c45c0031ce566fb333dbae9038fe49880cd0a78caf
-  languageName: node
-  linkType: hard
-
-"update-notifier@npm:^5.1.0":
-  version: 5.1.0
-  resolution: "update-notifier@npm:5.1.0"
-  dependencies:
-    boxen: ^5.0.0
-    chalk: ^4.1.0
-    configstore: ^5.0.1
-    has-yarn: ^2.1.0
-    import-lazy: ^2.1.0
-    is-ci: ^2.0.0
-    is-installed-globally: ^0.4.0
-    is-npm: ^5.0.0
-    is-yarn-global: ^0.3.0
-    latest-version: ^5.1.0
-    pupa: ^2.1.1
-    semver: ^7.3.4
-    semver-diff: ^3.1.1
-    xdg-basedir: ^4.0.0
-  checksum: 4011718b76c59fc389f37ae2ece769cd001e9733fbe5c3123453b2b9dea5b31e06319b9f7d72857c1aa16bc817f2434c0adbb22f10e758cb66a098b439136068
   languageName: node
   linkType: hard
 
@@ -8174,9 +8096,9 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"xo@npm:0.40.2":
-  version: 0.40.2
-  resolution: "xo@npm:0.40.2"
+"xo@npm:0.40.3":
+  version: 0.40.3
+  resolution: "xo@npm:0.40.3"
   dependencies:
     "@eslint/eslintrc": ^0.4.1
     "@typescript-eslint/eslint-plugin": ^4.22.0
@@ -8223,10 +8145,9 @@ fsevents@~2.1.2:
     slash: ^3.0.0
     to-absolute-glob: ^2.0.2
     typescript: ^4.2.4
-    update-notifier: ^5.1.0
   bin:
     xo: cli.js
-  checksum: 4abd4161ee69f884c027ed04750260e0ebea6e065abf3b2d8164fa696274b196ef92cb1ac4e0604b5d19cc9f5cf5fd3040a37c4ee05c2867e57a6b5538e3616e
+  checksum: 5a5b7843058916626d9fe9fadc654e503786170a5c288b5f410d1075960a8486d299f060c51f74a7bca7f6902b4a9e9cee45f51fea7ea21cdd558dbc6e04948c
   languageName: node
   linkType: hard
 
