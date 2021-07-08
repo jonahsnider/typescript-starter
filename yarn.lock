@@ -6238,7 +6238,16 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"prettier@npm:2.3.0, prettier@npm:^2.2.1":
+"prettier@npm:2.3.2":
+  version: 2.3.2
+  resolution: "prettier@npm:2.3.2"
+  bin:
+    prettier: bin-prettier.js
+  checksum: 4fd89a7f6a12b13456d359fba2b1dd0fc0a17cf33f8f15953ab9f43b21ea9b09b5a2861d63b558ca0577274ce606d390e70628cf93e26d19d6cb7f19c9eebc31
+  languageName: node
+  linkType: hard
+
+"prettier@npm:^2.2.1":
   version: 2.3.0
   resolution: "prettier@npm:2.3.0"
   bin:
@@ -7748,7 +7757,7 @@ fsevents@~2.1.2:
     "@istanbuljs/nyc-config-typescript": 1.0.1
     ava: 3.15.0
     nyc: 15.1.0
-    prettier: 2.3.0
+    prettier: 2.3.2
     prettier-config-xo: 2.0.0
     source-map-support: 0.5.19
     ts-node: 10.0.0

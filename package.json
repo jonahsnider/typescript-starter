@@ -23,7 +23,7 @@
 		"@istanbuljs/nyc-config-typescript": "1.0.1",
 		"ava": "3.15.0",
 		"nyc": "15.1.0",
-		"prettier": "2.3.0",
+		"prettier": "2.3.2",
 		"prettier-config-xo": "2.0.0",
 		"source-map-support": "0.5.19",
 		"ts-node": "10.0.0",
