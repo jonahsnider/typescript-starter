@@ -63,5 +63,6 @@
 		"rules": {
 			"prettier/prettier": "off"
 		}
-	}
+	},
+	"packageManager": "yarn@3.0.0"
 }
