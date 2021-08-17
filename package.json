@@ -64,5 +64,5 @@
 			"prettier/prettier": "off"
 		}
 	},
-	"packageManager": "yarn@3.0.0"
+	"packageManager": "yarn@3.0.1"
 }
