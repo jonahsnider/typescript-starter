@@ -4,7 +4,7 @@
 
 This project uses [Node.js](https://nodejs.org) to run, so make sure you've got a recent version installed.
 
-This project uses [Yarn](https://yarnpkg.com) 2 to manage dependencies and run scripts.
+[Yarn](https://yarnpkg.com) is used to manage dependencies and run scripts.
 After cloning the repository you can use this command to install dependencies:
 
 ```sh
@@ -40,7 +40,7 @@ Unit tests are stored alongside source files (ex. `config.ts` would have `config
 You can run the tests with the `test` script:
 
 ```sh
-yarn run test
+yarn test
 ```
 
 ## Coverage
