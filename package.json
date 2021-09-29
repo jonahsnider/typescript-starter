@@ -55,6 +55,8 @@
 	},
 	"devDependencies": {
 		"@istanbuljs/nyc-config-typescript": "1.0.1",
+		"@tsconfig/node16": "1.0.2",
+		"@types/node": "16.10.1",
 		"ava": "3.15.0",
 		"nyc": "15.1.0",
 		"prettier": "2.3.2",

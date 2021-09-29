@@ -475,7 +475,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tsconfig/node16@npm:^1.0.2":
+"@tsconfig/node16@npm:1.0.2, @tsconfig/node16@npm:^1.0.2":
   version: 1.0.2
   resolution: "@tsconfig/node16@npm:1.0.2"
   checksum: ca94d3639714672bbfd55f03521d3f56bb6a25479bd425da81faf21f13e1e9d15f40f97377dedbbf477a5841c5b0c8f4cd1b391f33553d750b9202c54c2c07aa
@@ -526,6 +526,13 @@ __metadata:
   version: 16.3.3
   resolution: "@types/node@npm:16.3.3"
   checksum: fa885b835e57a4a2fd15571e5cbfe361d4ac48278196416aa2690ebdfb118a116249dd81475078c61fbf2d95920324f8f3a66ae7f19fac424ae74ab87a41c1e4
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:16.10.1":
+  version: 16.10.1
+  resolution: "@types/node@npm:16.10.1"
+  checksum: 84d7f082e9421fdf1f08dbe00b66848897b2675eacc94a4fa445c4d34cef57c901ecd3276d03ebe110607a848d3df0ab33816aeff51a234e036111dd8ef1422f
   languageName: node
   linkType: hard
 
@@ -6034,6 +6041,8 @@ fsevents@~2.3.2:
   resolution: "typescript-starter@workspace:."
   dependencies:
     "@istanbuljs/nyc-config-typescript": 1.0.1
+    "@tsconfig/node16": 1.0.2
+    "@types/node": 16.10.1
     ava: 3.15.0
     nyc: 15.1.0
     prettier: 2.3.2

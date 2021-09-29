@@ -2,7 +2,7 @@
 
 ## Prequisites
 
-This project uses [Node.js](https://nodejs.org) to run, so make sure you've got a recent version installed.
+This project uses [Node.js](https://nodejs.org) to run, so make sure you've got a version compatible with the one listed in `package.json`.
 
 [Yarn](https://yarnpkg.com) is used to manage dependencies and run scripts.
 After cloning the repository you can use this command to install dependencies:
