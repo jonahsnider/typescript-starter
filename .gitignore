@@ -217,10 +217,10 @@ $RECYCLE.BIN/
 tsc_output
 
 # Yarn
+.pnp.*
 .yarn/*
 !.yarn/patches
-!.yarn/releases
 !.yarn/plugins
+!.yarn/releases
 !.yarn/sdks
 !.yarn/versions
-.pnp.*
