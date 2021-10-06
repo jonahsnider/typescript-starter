@@ -24,12 +24,6 @@
 		"pretest": "rm -rf coverage .nyc_output",
 		"test": "nyc ava"
 	},
-	"xo": {
-		"prettier": true,
-		"rules": {
-			"prettier/prettier": "off"
-		}
-	},
 	"ava": {
 		"extensions": [
 			"ts"
@@ -55,6 +49,7 @@
 	},
 	"devDependencies": {
 		"@istanbuljs/nyc-config-typescript": "1.0.1",
+		"@jonahsnider/xo-config": "1.0.0",
 		"@tsconfig/node16": "1.0.2",
 		"@types/node": "16.10.1",
 		"ava": "3.15.0",

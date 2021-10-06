@@ -394,6 +394,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@jonahsnider/xo-config@npm:1.0.0":
+  version: 1.0.0
+  resolution: "@jonahsnider/xo-config@npm:1.0.0"
+  checksum: 0a1f3b60228224359d5994ff804dddddad341bcbceb4aaa1dcf2d3addcd7c051d16ee14af834d6442cade492a462496f424c2edb9cb97d81d0952647f94f426a
+  languageName: node
+  linkType: hard
+
 "@nodelib/fs.scandir@npm:2.1.5":
   version: 2.1.5
   resolution: "@nodelib/fs.scandir@npm:2.1.5"
@@ -6076,6 +6083,7 @@ fsevents@~2.3.2:
   resolution: "typescript-starter@workspace:."
   dependencies:
     "@istanbuljs/nyc-config-typescript": 1.0.1
+    "@jonahsnider/xo-config": 1.0.0
     "@tsconfig/node16": 1.0.2
     "@types/node": 16.10.1
     ava: 3.15.0
