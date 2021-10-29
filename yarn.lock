@@ -6442,7 +6442,7 @@ resolve@~1.19.0:
     source-map-support: 0.5.20
     ts-node: 10.4.0
     typescript: 4.4.4
-    xo: 0.46.0
+    xo: 0.46.3
   languageName: unknown
   linkType: soft
 
@@ -6705,9 +6705,9 @@ resolve@~1.19.0:
   languageName: node
   linkType: hard
 
-"xo@npm:0.46.0":
-  version: 0.46.0
-  resolution: "xo@npm:0.46.0"
+"xo@npm:0.46.3":
+  version: 0.46.3
+  resolution: "xo@npm:0.46.3"
   dependencies:
     "@eslint/eslintrc": ^1.0.3
     "@typescript-eslint/eslint-plugin": "*"
@@ -6747,7 +6747,7 @@ resolve@~1.19.0:
     typescript: ^4.4.4
   bin:
     xo: cli.js
-  checksum: 8e5a158f68ea26f4bd3c97901a9944c5694db570da138b04d46c15e4b1318092b74ca2e7a722eee3e033350378697ad6a3b82099a3a43a612b4bf39cbe9c8177
+  checksum: 0798b64771a63f51f5ef39a7c1026b415f58923ac9d155cf9261232752e60a92feaa199b9f64056243ce5735852eda2d3e46dcf4b8b566e97f0d3486d2944600
   languageName: node
   linkType: hard
 
