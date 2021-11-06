@@ -9,18 +9,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout git repository
+      - name: Checkout Git repository
         uses: actions/checkout@v2
-      - name: Get Yarn cache directory path
-        id: yarn-cache-dir-path
-        run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
-      - name: Cache dependencies
-        uses: actions/cache@v2
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
         with:
-          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-yarn-
+          node-version: '16'
+          cache: 'yarn'
       - name: Install dependencies with Yarn
         run: yarn install --immutable
       - name: Build
@@ -36,18 +31,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout git repository
+      - name: Checkout Git repository
         uses: actions/checkout@v2
-      - name: Get Yarn cache directory path
-        id: yarn-cache-dir-path
-        run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
-      - name: Cache dependencies
-        uses: actions/cache@v2
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
         with:
-          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-yarn-
+          node-version: '16'
+          cache: 'yarn'
       - name: Install dependencies with Yarn
         run: yarn install --immutable
       - name: Lint
@@ -58,18 +48,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout git repository
+      - name: Checkout Git repository
         uses: actions/checkout@v2
-      - name: Get Yarn cache directory path
-        id: yarn-cache-dir-path
-        run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
-      - name: Cache dependencies
-        uses: actions/cache@v2
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
         with:
-          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-yarn-
+          node-version: '16'
+          cache: 'yarn'
       - name: Install dependencies with Yarn
         run: yarn install --immutable
       - name: Check style
@@ -80,18 +65,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout git repository
+      - name: Checkout Git repository
         uses: actions/checkout@v2
-      - name: Get Yarn cache directory path
-        id: yarn-cache-dir-path
-        run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
-      - name: Cache dependencies
-        uses: actions/cache@v2
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
         with:
-          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-yarn-
+          node-version: '16'
+          cache: 'yarn'
       - name: Install dependencies with Yarn
         run: yarn install --immutable
       - name: Run tests
