@@ -17,9 +17,7 @@ Run the `build` script to compile the TypeScript source code into JavaScript in 
 
 ## Style
 
-This project uses [Prettier](https://prettier.io) to validate the formatting and style across the codebase.
-
-You can run Prettier in the project with this command:
+You can check code style with this command:
 
 ```sh
 yarn run style
@@ -27,8 +25,7 @@ yarn run style
 
 ## Linting
 
-This project uses [XO](https://github.com/xojs/xo) (which uses [ESLint](https://eslint.org) and some plugins internally) to perform static analysis of the source code.
-It reports issues like unused variables or not following best practices to ensure the project is well-written.
+You can run the this command to lint the source:
 
 ```sh
 yarn run lint
@@ -36,7 +33,7 @@ yarn run lint
 
 ## Testing
 
-Unit tests are stored alongside source files (ex. `config.ts` would have `config.test.ts`).
+Unit tests are stored in the `test/` directory mirroring the structure of the source files (ex. `src/config.ts` would have `test/config/some-function.test.ts`).
 You can run the tests with the `test` script:
 
 ```sh
@@ -44,6 +41,12 @@ yarn test
 ```
 
 ## Coverage
+
+You can collect test coverage by running this command:
+
+```sh
+yarn run test:coverage
+```
 
 This will generate a `coverage` folder which has a breakdown of coverage of the project.
 The CI will upload the coverage information to [CodeCov](https://codecov.io) which can be [viewed here](https://codecov.io/gh/jonahsnider/typescript-starter).
