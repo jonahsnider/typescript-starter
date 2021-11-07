@@ -2,6 +2,11 @@
 	"name": "typescript-starter",
 	"version": "1.0.0",
 	"private": true,
+	"description": "My personal TypeScript starter template.",
+	"keywords": [
+		"typescript",
+		"starter"
+	],
 	"bugs": {
 		"url": "https://github.com/jonahsnider/typescript-starter/issues"
 	},
