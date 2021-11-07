@@ -1,11 +1,13 @@
 {
 	"compilerOptions": {
+		"module": "esnext",
 		"moduleResolution": "node",
 		"outDir": "tsc_output",
 		"resolveJsonModule": true,
-		"sourceMap": true
+		"sourceMap": true,
+		"target": "esnext"
 	},
 	"exclude": ["node_modules", "coverage"],
-	"include": ["src", "test"],
-	"extends": "@tsconfig/node16"
+	"extends": "@tsconfig/node16",
+	"include": ["src", "test"]
 }

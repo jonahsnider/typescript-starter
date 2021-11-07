@@ -20,7 +20,9 @@
 		"email": "jonah@jonahsnider.com",
 		"url": "https://jonahsnider.com"
 	},
-	"main": "./tsc_output/index.js",
+	"type": "module",
+	"exports": "./tsc_output/src/index.js",
+	"main": "./tsc_output/src/index.js",
 	"scripts": {
 		"build": "tsc",
 		"lint": "xo",
