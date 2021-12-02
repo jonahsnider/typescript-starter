@@ -2,7 +2,7 @@
 
 ## Prequisites
 
-This project uses [Node.js](https://nodejs.org) to run, so make sure you've got a version compatible with the one listed in `package.json`.
+This project uses [Node.js](https://nodejs.org) to run, so make sure you have a version compatible with the one listed in `package.json`.
 
 [Yarn](https://yarnpkg.com) is used to manage dependencies and run scripts.
 After cloning the repository you can use this command to install dependencies:
@@ -17,13 +17,23 @@ Run the `build` script to compile the TypeScript source code into JavaScript in 
 
 ## Style
 
+All files are formatted using Prettier.
+
 You can check code style with this command:
 
 ```sh
 yarn run style
 ```
 
+You can format files with this command:
+
+```sh
+yarn run style --write
+```
+
 ## Linting
+
+XO (a wrapper around ESLint) is used to lint the source.
 
 You can run the this command to lint the source:
 
@@ -31,7 +41,15 @@ You can run the this command to lint the source:
 yarn run lint
 ```
 
+You can fix linting errors with this command:
+
+```sh
+yarn run lint --fix
+```
+
 ## Testing
+
+AVA is used for unit testing.
 
 Unit tests are stored in the `test/` directory mirroring the structure of the source files (ex. `src/config.ts` would have `test/config/some-function.test.ts`).
 You can run the tests with the `test` script:
@@ -40,7 +58,13 @@ You can run the tests with the `test` script:
 yarn test
 ```
 
-## Coverage
+You can run tests in watch mode with this command:
+
+```sh
+yarn test --watch
+```
+
+### Coverage
 
 You can collect test coverage by running this command:
 
