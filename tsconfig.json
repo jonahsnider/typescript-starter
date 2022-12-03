@@ -1,14 +1,15 @@
 {
 	"compilerOptions": {
+		"exactOptionalPropertyTypes": false,
 		"inlineSourceMap": true,
 		"inlineSources": true,
-		"module": "esnext",
 		"moduleResolution": "node",
+		"noUnusedLocals": false,
+		"noUnusedParameters": false,
 		"outDir": "tsc_output",
-		"resolveJsonModule": true,
-		"target": "esnext"
+		"resolveJsonModule": true
 	},
 	"exclude": ["node_modules", "coverage"],
-	"extends": "@tsconfig/node16",
+	"extends": "@tsconfig/node18-strictest-esm",
 	"include": ["src", "test"]
 }
