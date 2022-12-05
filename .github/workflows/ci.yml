@@ -30,6 +30,7 @@ jobs:
     name: Lint
 
     runs-on: ubuntu-latest
+    timeout-minutes: 5
 
     steps:
       - name: Checkout Git repository
