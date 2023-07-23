@@ -276,38 +276,38 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tsconfig/node10@npm:^1.0.7":
-  version: 1.0.8
-  resolution: "@tsconfig/node10@npm:1.0.8"
-  checksum: b8d5fffbc6b17ef64ef74f7fdbccee02a809a063ade785c3648dae59406bc207f70ea2c4296f92749b33019fa36a5ae716e42e49cc7f1bbf0fd147be0d6b970a
+"@tsconfig/node14@npm:*":
+  version: 14.1.0
+  resolution: "@tsconfig/node14@npm:14.1.0"
+  checksum: 8342dc30edbfaed11d1659b1a9819779bb69df210974a9e8a337b0624b1d9f5026f37e2dcc1d555adb3e4246a0ec35896b3ae5fe3fc69f3382d3bc11069cecc1
   languageName: node
   linkType: hard
 
-"@tsconfig/node12@npm:^1.0.7":
-  version: 1.0.9
-  resolution: "@tsconfig/node12@npm:1.0.9"
-  checksum: a01b2400ab3582b86b589c6d31dcd0c0656f333adecde85d6d7d4086adb059808b82692380bb169546d189bf771ae21d02544a75b57bd6da4a5dd95f8567bec9
+"@tsconfig/node16@npm:*":
+  version: 16.1.0
+  resolution: "@tsconfig/node16@npm:16.1.0"
+  checksum: a0a176492e3802a5340eda1e61eabc8d4767e46496bc080ce9c381993ce8c5fb3df8f65267c3a9af4335bc00a85028845f795ea27545f63d62b93ab6675cf8fa
   languageName: node
   linkType: hard
 
-"@tsconfig/node14@npm:^1.0.0":
-  version: 1.0.1
-  resolution: "@tsconfig/node14@npm:1.0.1"
-  checksum: 976345e896c0f059867f94f8d0f6ddb8b1844fb62bf36b727de8a9a68f024857e5db97ed51d3325e23e0616a5e48c034ff51a8d595b3fe7e955f3587540489be
+"@tsconfig/node18@npm:*, @tsconfig/node18@npm:18.2.0":
+  version: 18.2.0
+  resolution: "@tsconfig/node18@npm:18.2.0"
+  checksum: 04263c931db2f69f5bd421755bae83df5623701bab3ce086fad4a775c14f523d864ef2ca3282fc1f866895914d474fa3871809647dd089259aa66631c1e47a76
   languageName: node
   linkType: hard
 
-"@tsconfig/node16@npm:^1.0.2":
-  version: 1.0.2
-  resolution: "@tsconfig/node16@npm:1.0.2"
-  checksum: ca94d3639714672bbfd55f03521d3f56bb6a25479bd425da81faf21f13e1e9d15f40f97377dedbbf477a5841c5b0c8f4cd1b391f33553d750b9202c54c2c07aa
+"@tsconfig/node20@npm:*":
+  version: 20.1.0
+  resolution: "@tsconfig/node20@npm:20.1.0"
+  checksum: be4c29944236c10433bafbbf5763cc26d7a095d894faf9bcefe527f7bd55a0aca56b9178b287579b8ad76af9624e9a0713bc1072e891e676e269fa933677386c
   languageName: node
   linkType: hard
 
-"@tsconfig/node18-strictest-esm@npm:1.0.1":
-  version: 1.0.1
-  resolution: "@tsconfig/node18-strictest-esm@npm:1.0.1"
-  checksum: 9da55e6959defe1115996e3360decbf70f83fae925967c418a5a387db52daa005f6b270b858bea42d74c134ff7155157c5cabbfecc9c783fd1129e354ec2f31c
+"@tsconfig/strictest@npm:2.0.1":
+  version: 2.0.1
+  resolution: "@tsconfig/strictest@npm:2.0.1"
+  checksum: 3a9b913e06c20fee0a002fc22a925370525dd917853dee2e0082de763b10a61a69d72d60d02e243629da94b3e0b98843469a3b063c0ab2a5d6716183867dd114
   languageName: node
   linkType: hard
 
@@ -1393,13 +1393,6 @@ __metadata:
     parse-json: ^5.0.0
     path-type: ^4.0.0
   checksum: 836d5d8efa750f3fb17b03d6ca74cd3154ed025dffd045304b3ef59637f662bde1e5dc88f8830080d180ec60841719cf4ea2ce73fb21ec694b16865c478ff297
-  languageName: node
-  linkType: hard
-
-"create-require@npm:^1.1.0":
-  version: 1.1.1
-  resolution: "create-require@npm:1.1.1"
-  checksum: a9a1503d4390d8b59ad86f4607de7870b39cad43d929813599a23714831e81c520bddf61bcdd1f8e30f05fd3a2b71ae8538e946eb2786dc65c2bbc520f692eff
   languageName: node
   linkType: hard
 
@@ -4719,16 +4712,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"prettier@npm:2.8.8":
-  version: 2.8.8
-  resolution: "prettier@npm:2.8.8"
-  bin:
-    prettier: bin-prettier.js
-  checksum: b49e409431bf129dd89238d64299ba80717b57ff5a6d1c1a8b1a28b590d998a34e083fa13573bc732bb8d2305becb4c9a4407f8486c81fa7d55100eb08263cf8
-  languageName: node
-  linkType: hard
-
-"prettier@npm:^3.0.0":
+"prettier@npm:3.0.0, prettier@npm:^3.0.0":
   version: 3.0.0
   resolution: "prettier@npm:3.0.0"
   bin:
@@ -5716,28 +5700,26 @@ resolve@~1.19.0:
   languageName: node
   linkType: hard
 
-"ts-node@npm:10.9.1":
+ts-node@TypeStrong/ts-node:
   version: 10.9.1
-  resolution: "ts-node@npm:10.9.1"
+  resolution: "ts-node@https://github.com/TypeStrong/ts-node.git#commit=47d4f45f35e824a2515e17383a563be7dba7d8ff"
   dependencies:
     "@cspotcode/source-map-support": ^0.8.0
-    "@tsconfig/node10": ^1.0.7
-    "@tsconfig/node12": ^1.0.7
-    "@tsconfig/node14": ^1.0.0
-    "@tsconfig/node16": ^1.0.2
+    "@tsconfig/node14": "*"
+    "@tsconfig/node16": "*"
+    "@tsconfig/node18": "*"
+    "@tsconfig/node20": "*"
     acorn: ^8.4.1
     acorn-walk: ^8.1.1
     arg: ^4.1.0
-    create-require: ^1.1.0
     diff: ^4.0.1
     make-error: ^1.1.1
     v8-compile-cache-lib: ^3.0.1
-    yn: 3.1.1
   peerDependencies:
     "@swc/core": ">=1.2.50"
     "@swc/wasm": ">=1.2.50"
     "@types/node": "*"
-    typescript: ">=2.7"
+    typescript: ">=4.2"
   peerDependenciesMeta:
     "@swc/core":
       optional: true
@@ -5749,8 +5731,7 @@ resolve@~1.19.0:
     ts-node-esm: dist/bin-esm.js
     ts-node-script: dist/bin-script.js
     ts-node-transpile-only: dist/bin-transpile.js
-    ts-script: dist/bin-script-deprecated.js
-  checksum: 090adff1302ab20bd3486e6b4799e90f97726ed39e02b39e566f8ab674fd5bd5f727f43615debbfc580d33c6d9d1c6b1b3ce7d8e3cca3e20530a145ffa232c35
+  checksum: 1e856d7a12e15175f30803df1195d1c5b1c31b5fa0b829cca0aaece816999c98ec224bbfad6144e92b9fa3808ecf278b83f5b417f496371cd50aa6425b57cd44
   languageName: node
   linkType: hard
 
@@ -5862,28 +5843,19 @@ resolve@~1.19.0:
   dependencies:
     "@jonahsnider/prettier-config": 1.1.2
     "@jonahsnider/xo-config": 5.3.0
-    "@tsconfig/node18-strictest-esm": 1.0.1
+    "@tsconfig/node18": 18.2.0
+    "@tsconfig/strictest": 2.0.1
     "@types/node": 18.17.0
     ava: 5.3.1
     c8: 8.0.0
-    prettier: 2.8.8
-    ts-node: 10.9.1
-    typescript: 4.9.5
+    prettier: 3.0.0
+    ts-node: TypeStrong/ts-node
+    typescript: 5.1.6
     xo: 0.55.0
   languageName: unknown
   linkType: soft
 
-"typescript@npm:4.9.5":
-  version: 4.9.5
-  resolution: "typescript@npm:4.9.5"
-  bin:
-    tsc: bin/tsc
-    tsserver: bin/tsserver
-  checksum: ee000bc26848147ad423b581bd250075662a354d84f0e06eb76d3b892328d8d4440b7487b5a83e851b12b255f55d71835b008a66cbf8f255a11e4400159237db
-  languageName: node
-  linkType: hard
-
-"typescript@npm:^5.1.6":
+"typescript@npm:5.1.6, typescript@npm:^5.1.6":
   version: 5.1.6
   resolution: "typescript@npm:5.1.6"
   bin:
@@ -5893,17 +5865,7 @@ resolve@~1.19.0:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@4.9.5#~builtin<compat/typescript>":
-  version: 4.9.5
-  resolution: "typescript@patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=289587"
-  bin:
-    tsc: bin/tsc
-    tsserver: bin/tsserver
-  checksum: 1f8f3b6aaea19f0f67cba79057674ba580438a7db55057eb89cc06950483c5d632115c14077f6663ea76fd09fce3c190e6414bb98582ec80aa5a4eaf345d5b68
-  languageName: node
-  linkType: hard
-
-"typescript@patch:typescript@^5.1.6#~builtin<compat/typescript>":
+"typescript@patch:typescript@5.1.6#~builtin<compat/typescript>, typescript@patch:typescript@^5.1.6#~builtin<compat/typescript>":
   version: 5.1.6
   resolution: "typescript@patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"
   bin:
@@ -6203,13 +6165,6 @@ resolve@~1.19.0:
     y18n: ^5.0.5
     yargs-parser: ^21.1.1
   checksum: 73b572e863aa4a8cbef323dd911d79d193b772defd5a51aab0aca2d446655216f5002c42c5306033968193bdbf892a7a4c110b0d77954a7fdf563e653967b56a
-  languageName: node
-  linkType: hard
-
-"yn@npm:3.1.1":
-  version: 3.1.1
-  resolution: "yn@npm:3.1.1"
-  checksum: 2c487b0e149e746ef48cda9f8bad10fc83693cd69d7f9dcd8be4214e985de33a29c9e24f3c0d6bcf2288427040a8947406ab27f7af67ee9456e6b84854f02dd6
   languageName: node
   linkType: hard
 
