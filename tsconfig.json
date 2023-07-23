@@ -3,13 +3,13 @@
 		"exactOptionalPropertyTypes": false,
 		"inlineSourceMap": true,
 		"inlineSources": true,
-		"moduleResolution": "node",
+		"module": "node16",
 		"noUnusedLocals": false,
 		"noUnusedParameters": false,
 		"outDir": "tsc_output",
 		"resolveJsonModule": true
 	},
 	"exclude": ["node_modules", "coverage"],
-	"extends": "@tsconfig/node18-strictest-esm",
+	"extends": ["@tsconfig/strictest/tsconfig","@tsconfig/node18/tsconfig.json"],
 	"include": ["src", "test"]
 }

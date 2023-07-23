@@ -304,10 +304,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tsconfig/node18-strictest-esm@npm:1.0.1":
-  version: 1.0.1
-  resolution: "@tsconfig/node18-strictest-esm@npm:1.0.1"
-  checksum: 9da55e6959defe1115996e3360decbf70f83fae925967c418a5a387db52daa005f6b270b858bea42d74c134ff7155157c5cabbfecc9c783fd1129e354ec2f31c
+"@tsconfig/node18@npm:18.2.0":
+  version: 18.2.0
+  resolution: "@tsconfig/node18@npm:18.2.0"
+  checksum: 04263c931db2f69f5bd421755bae83df5623701bab3ce086fad4a775c14f523d864ef2ca3282fc1f866895914d474fa3871809647dd089259aa66631c1e47a76
+  languageName: node
+  linkType: hard
+
+"@tsconfig/strictest@npm:2.0.1":
+  version: 2.0.1
+  resolution: "@tsconfig/strictest@npm:2.0.1"
+  checksum: 3a9b913e06c20fee0a002fc22a925370525dd917853dee2e0082de763b10a61a69d72d60d02e243629da94b3e0b98843469a3b063c0ab2a5d6716183867dd114
   languageName: node
   linkType: hard
 
@@ -5853,7 +5860,8 @@ resolve@~1.19.0:
   dependencies:
     "@jonahsnider/prettier-config": 1.1.2
     "@jonahsnider/xo-config": 5.3.0
-    "@tsconfig/node18-strictest-esm": 1.0.1
+    "@tsconfig/node18": 18.2.0
+    "@tsconfig/strictest": 2.0.1
     "@types/node": 18.17.0
     ava: 5.3.1
     c8: 8.0.0
