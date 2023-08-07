@@ -42,7 +42,7 @@
 		"prettier": "3.0.1",
 		"ts-node": "TypeStrong/ts-node",
 		"typescript": "5.1.6",
-		"xo": "0.55.0"
+		"xo": "0.55.1"
 	},
 	"packageManager": "yarn@3.6.1"
 }
