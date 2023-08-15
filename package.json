@@ -39,10 +39,10 @@
 		"@types/node": "18.17.5",
 		"ava": "5.3.1",
 		"c8": "8.0.1",
-		"prettier": "3.0.1",
+		"prettier": "3.0.2",
 		"ts-node": "TypeStrong/ts-node",
 		"typescript": "5.1.6",
-		"xo": "0.55.1"
+		"xo": "0.56.0"
 	},
 	"packageManager": "yarn@3.6.1"
 }
