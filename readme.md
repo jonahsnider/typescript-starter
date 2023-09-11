@@ -8,13 +8,13 @@ My personal TypeScript starter template.
 
 ## Features
 
-- Targets the [latest versions of Node.js](./.node-version)
+- Targets the latest versions of Bun
 - Source code, tests, and tooling configs all use ESM
-- 100% TypeScript codebase with [a simple, strict config](./tsconfig.json) via [`@tsconfig/node16`](https://github.com/tsconfig/bases#readme)
+- 100% TypeScript codebase with [a simple, strict config](./tsconfig.json)
 - [devcontainer.json](./.devcontainer/devcontainer.json) makes getting a dev environment 100% reproducible
-- Unit tests via [AVA](https://avajs.dev/) and test coverage via [c8](https://github.com/bcoe/c8#readme)
+- Unit tests and test coverage via Bun
 - Great tooling
-  - Package management via Yarn 2+ (without PnP)
+  - Package management via Bun
   - Linting via [XO](https://github.com/xojs/xo#readme) (an ESLint wrapper) and [my config](https://github.com/jonahsnider/xo-config#readme)
   - Formatting via [Prettier](https://prettier.io/) and [my config](https://github.com/jonahsnider/prettier-config#readme)
   - Automated dependency updates via [Renovate](https://www.whitesourcesoftware.com/free-developer-tools/renovate/) and [my config](https://github.com/jonahsnider/renovate-config#readme)
