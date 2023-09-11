@@ -1,15 +1,17 @@
 {
 	"compilerOptions": {
+		"allowImportingTsExtensions": false,
 		"exactOptionalPropertyTypes": false,
 		"inlineSourceMap": true,
 		"inlineSources": true,
-		"module": "node16",
+		"module": "ESNext",
+		"noEmit": false,
 		"noUnusedLocals": false,
 		"noUnusedParameters": false,
 		"outDir": "tsc_output",
 		"resolveJsonModule": true
 	},
 	"exclude": ["node_modules", "coverage"],
-	"extends": ["@tsconfig/strictest/tsconfig", "@tsconfig/node18/tsconfig.json"],
-	"include": ["src", "test"]
+	"extends": ["@tsconfig/strictest", "@tsconfig/bun"],
+	"include": ["src"]
 }

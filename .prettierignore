@@ -224,7 +224,3 @@ $RECYCLE.BIN/
 
 # TypeScript compiler output
 tsc_output
-
-# Yarn
-.yarn/*
-.pnp.*
