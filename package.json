@@ -40,7 +40,7 @@
 		"ava": "5.3.1",
 		"c8": "8.0.1",
 		"prettier": "3.0.3",
-		"ts-node": "TypeStrong/ts-node",
+		"tsx": "3.12.10",
 		"typescript": "5.2.2",
 		"xo": "0.56.0"
 	},

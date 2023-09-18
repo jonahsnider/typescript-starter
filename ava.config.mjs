@@ -3,7 +3,7 @@ const config = {
 		ts: 'module',
 	},
 	files: ['test/**/*.test.ts'],
-	nodeArguments: ['--loader=ts-node/esm'],
+	nodeArguments: ['--loader=tsx'],
 };
 
 export default config;
