@@ -5953,9 +5953,9 @@ resolve@~1.19.0:
   languageName: node
   linkType: hard
 
-"tsx@npm:3.13.0":
-  version: 3.13.0
-  resolution: "tsx@npm:3.13.0"
+"tsx@npm:3.14.0":
+  version: 3.14.0
+  resolution: "tsx@npm:3.14.0"
   dependencies:
     esbuild: ~0.18.20
     fsevents: ~2.3.3
@@ -5966,7 +5966,7 @@ resolve@~1.19.0:
       optional: true
   bin:
     tsx: dist/cli.mjs
-  checksum: ef858574e110d16a7ca9bbb3a5edeeafd37026ebed6cdd390c4707ad64005024c55fd3142a8f89732c79176196afa7d27073f586966ff0cae0126159ebd58be4
+  checksum: afcef5d9b90b5800cf1ffb749e943f63042d78a4c0d9eef6e13e43f4ecab465d45e2c9812a2c515cbdc2ee913ff1cd01bf5c606a48013dd3ce2214a631b45557
   languageName: node
   linkType: hard
 
@@ -6065,7 +6065,7 @@ resolve@~1.19.0:
     ava: 5.3.1
     c8: 8.0.1
     prettier: 3.0.3
-    tsx: 3.13.0
+    tsx: 3.14.0
     typescript: 5.2.2
     xo: 0.56.0
   languageName: unknown
