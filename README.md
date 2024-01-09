@@ -1,6 +1,6 @@
 # TypeScript Starter
 
-[![Build Status](https://github.com/jonahsnider/typescript-starter/workflows/CI/badge.svg)](https://github.com/jonahsnider/typescript-starter/actions)
+[![CI](https://github.com/jonahsnider/typescript-starter/actions/workflows/ci.yml/badge.svg)](https://github.com/jonahsnider/typescript-starter/actions/workflows/ci.yml)
 [![codecov](https://codecov.io/gh/jonahsnider/typescript-starter/graph/badge.svg?token=jC6Ho46EEn)](https://codecov.io/gh/jonahsnider/typescript-starter)
 
 My personal TypeScript starter template.
