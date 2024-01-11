@@ -21,6 +21,9 @@
 	"linter": {
 		"rules": {
 			"all": true,
+			"nursery": {
+				"all": false
+			},
 			"style": {
 				"all": true,
 				"noParameterProperties": "off"
