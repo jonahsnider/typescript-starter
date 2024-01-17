@@ -39,11 +39,11 @@
 		"@tsconfig/node20": "20.1.2",
 		"@tsconfig/strictest": "2.0.2",
 		"@types/node": "20.11.5",
-		"@vitest/coverage-v8": "1.2.0",
+		"@vitest/coverage-v8": "1.2.1",
 		"prettier": "3.2.4",
 		"tsx": "4.7.0",
 		"typescript": "5.3.3",
-		"vitest": "1.2.0"
+		"vitest": "1.2.1"
 	},
 	"packageManager": "yarn@4.0.2"
 }
