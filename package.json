@@ -38,7 +38,7 @@
 		"@jonahsnider/prettier-config": "1.1.2",
 		"@tsconfig/node20": "20.1.2",
 		"@tsconfig/strictest": "2.0.2",
-		"@types/node": "20.11.14",
+		"@types/node": "20.11.15",
 		"@vitest/coverage-v8": "1.2.2",
 		"prettier": "3.2.4",
 		"tsx": "4.7.0",
