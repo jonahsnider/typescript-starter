@@ -12,18 +12,12 @@ jobs:
     steps:
       - name: Checkout Git repository
         uses: actions/checkout@v4
-      - name: Enable Corepack
-        # Required due to a limitation in setup-node https://github.com/actions/setup-node/issues/480#issuecomment-1820622085
-        run: corepack enable
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 'lts/*'
-          cache: 'yarn'
-      - name: Install dependencies with Yarn
-        run: yarn install --immutable
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
+      - name: Install dependencies with Bun
+        run: bun install --frozen-lockfile
       - name: Build
-        run: yarn run build
+        run: bun run build
   lint:
     name: Lint
 
@@ -33,18 +27,12 @@ jobs:
     steps:
       - name: Checkout Git repository
         uses: actions/checkout@v4
-      - name: Enable Corepack
-        # Required due to a limitation in setup-node https://github.com/actions/setup-node/issues/480#issuecomment-1820622085
-        run: corepack enable
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 'lts/*'
-          cache: 'yarn'
-      - name: Install dependencies with Yarn
-        run: yarn install --immutable
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
+      - name: Install dependencies with Bun
+        run: bun install --frozen-lockfile
       - name: Lint
-        run: yarn run lint
+        run: bun run lint
   style:
     name: Check style
 
@@ -54,18 +42,12 @@ jobs:
     steps:
       - name: Checkout Git repository
         uses: actions/checkout@v4
-      - name: Enable Corepack
-        # Required due to a limitation in setup-node https://github.com/actions/setup-node/issues/480#issuecomment-1820622085
-        run: corepack enable
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 'lts/*'
-          cache: 'yarn'
-      - name: Install dependencies with Yarn
-        run: yarn install --immutable
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
+      - name: Install dependencies with Bun
+        run: bun install --frozen-lockfile
       - name: Check style
-        run: yarn run style
+        run: bun run format
   test:
     name: Run unit tests
 
@@ -75,18 +57,12 @@ jobs:
     steps:
       - name: Checkout Git repository
         uses: actions/checkout@v4
-      - name: Enable Corepack
-        # Required due to a limitation in setup-node https://github.com/actions/setup-node/issues/480#issuecomment-1820622085
-        run: corepack enable
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 'lts/*'
-          cache: 'yarn'
-      - name: Install dependencies with Yarn
-        run: yarn install --immutable
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
+      - name: Install dependencies with Bun
+        run: bun install --frozen-lockfile
       - name: Run tests
-        run: yarn run test:coverage
+        run: bun run test:coverage
       - name: Submit test coverage
         uses: codecov/codecov-action@v4
         with:

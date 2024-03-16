@@ -237,3 +237,4 @@ $RECYCLE.BIN/
 **/*.mjs
 **/*.json
 **/*.jsonc
+!**/package.json

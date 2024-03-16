@@ -25,10 +25,11 @@
 	"main": "./dist/index.js",
 	"types": "./dist/index.d.ts",
 	"scripts": {
+		"lint": "biome check .",
+		"lint:fix": "biome check . --apply-unsafe",
 		"build": "rm -rf dist && tsc",
-		"lint": "biome check ./src/",
-		"lint:fix": "biome check ./src/ --apply-unsafe",
-		"style": "prettier --check .",
+		"format": "prettier --check .",
+		"format:write": "prettier --check . --write",
 		"test": "vitest --run --typecheck",
 		"test:coverage": "vitest --run --typecheck --coverage"
 	},
@@ -41,9 +42,10 @@
 		"@types/node": "20.11.28",
 		"@vitest/coverage-v8": "1.4.0",
 		"prettier": "3.2.5",
+		"prettier-plugin-packagejson": "2.4.12",
 		"tsx": "4.7.1",
 		"typescript": "5.4.2",
 		"vitest": "1.4.0"
 	},
-	"packageManager": "yarn@4.1.1"
+	"packageManager": "bun@1.0.31"
 }
