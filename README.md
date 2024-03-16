@@ -12,7 +12,7 @@ My personal TypeScript starter template.
 - 100% TypeScript codebase with [a simple, strict config](./tsconfig.json) via [`@tsconfig/node20`](https://github.com/tsconfig/bases#readme)
 - Unit tests via [Vitest](https://vitest.dev/)
 - Great tooling
-  - Package management via Yarn 2+ (without PnP)
+  - Package management via Bun
   - Linting and formatting via [Biome](https://biomejs.dev/)
   - Automated dependency updates via [Renovate](https://www.whitesourcesoftware.com/free-developer-tools/renovate/) and [my config](https://github.com/jonahsnider/renovate-config#readme)
   - GitHub Actions CI for commits and pull requests
