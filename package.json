@@ -42,7 +42,7 @@
 		"@types/node": "20.11.30",
 		"@vitest/coverage-v8": "1.4.0",
 		"prettier": "3.2.5",
-		"prettier-plugin-packagejson": "2.4.12",
+		"prettier-plugin-packagejson": "2.4.13",
 		"tsx": "4.7.1",
 		"typescript": "5.4.3",
 		"vitest": "1.4.0"
