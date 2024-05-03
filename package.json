@@ -43,7 +43,7 @@
 		"@vitest/coverage-v8": "1.5.3",
 		"prettier": "3.2.5",
 		"prettier-plugin-packagejson": "2.5.0",
-		"tsx": "4.8.2",
+		"tsx": "4.9.0",
 		"typescript": "5.4.5",
 		"vitest": "1.5.3"
 	},
