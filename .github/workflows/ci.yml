@@ -64,7 +64,7 @@ jobs:
       - name: Run tests
         run: bun run test:coverage
       - name: Submit test coverage
-        uses: codecov/codecov-action@v4
+        uses: codecov/codecov-action@v5
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
           files: ./coverage/clover.xml
