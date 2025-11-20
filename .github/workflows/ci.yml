@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Checkout Git repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
       - name: Setup Bun
         uses: oven-sh/setup-bun@v2
       - name: Install dependencies with Bun
@@ -26,7 +26,7 @@ jobs:
 
     steps:
       - name: Checkout Git repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
       - name: Setup Bun
         uses: oven-sh/setup-bun@v2
       - name: Install dependencies with Bun
@@ -41,7 +41,7 @@ jobs:
 
     steps:
       - name: Checkout Git repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
       - name: Setup Bun
         uses: oven-sh/setup-bun@v2
       - name: Install dependencies with Bun
@@ -56,7 +56,7 @@ jobs:
 
     steps:
       - name: Checkout Git repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
       - name: Setup Bun
         uses: oven-sh/setup-bun@v2
       - name: Install dependencies with Bun
