@@ -7,7 +7,7 @@
       "devDependencies": {
         "@biomejs/biome": "2.3.9",
         "@jonahsnider/prettier-config": "1.1.2",
-        "@tsconfig/node20": "20.1.8",
+        "@tsconfig/node24": "24.0.3",
         "@tsconfig/strictest": "2.0.8",
         "@types/node": "24.10.4",
         "@vitest/coverage-v8": "4.0.15",
@@ -156,7 +156,7 @@
 
     "@standard-schema/spec": ["@standard-schema/spec@1.0.0", "", {}, "sha512-m2bOd0f2RT9k8QJx1JN85cZYyH1RqFBdlwtkSlf4tBDYLCiiZnv1fIIwacK6cqwXavOydf0NPToMQgpKq+dVlA=="],
 
-    "@tsconfig/node20": ["@tsconfig/node20@20.1.8", "", {}, "sha512-Em+IdPfByIzWRRpqWL4Z7ArLHZGxmc36BxE3jCz9nBFSm+5aLaPMZyjwu4yetvyKXeogWcxik4L1jB5JTWfw7A=="],
+    "@tsconfig/node24": ["@tsconfig/node24@24.0.3", "", {}, "sha512-vcERKtKQKHgzt/vfS3Gjasd8SUI2a0WZXpgJURdJsMySpS5+ctgbPfuLj2z/W+w4lAfTWxoN4upKfu2WzIRYnw=="],
 
     "@tsconfig/strictest": ["@tsconfig/strictest@2.0.8", "", {}, "sha512-XnQ7vNz5HRN0r88GYf1J9JJjqtZPiHt2woGJOo2dYqyHGGcd6OLGqSlBB6p1j9mpzja6Oe5BoPqWmeDx6X9rLw=="],
 

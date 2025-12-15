@@ -10,6 +10,6 @@
 		"resolveJsonModule": true
 	},
 	"exclude": ["node_modules", "coverage", "src/**/*.test.ts"],
-	"extends": ["@tsconfig/strictest", "@tsconfig/node20"],
+	"extends": ["@tsconfig/strictest", "@tsconfig/node24"],
 	"include": ["src"]
 }
