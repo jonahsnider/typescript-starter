@@ -40,12 +40,12 @@
 		"@tsconfig/node24": "24.0.3",
 		"@tsconfig/strictest": "2.0.8",
 		"@types/node": "24.10.7",
-		"@vitest/coverage-v8": "4.0.16",
+		"@vitest/coverage-v8": "4.0.17",
 		"prettier": "3.7.4",
 		"prettier-plugin-packagejson": "2.5.20",
 		"tsx": "4.21.0",
 		"typescript": "5.9.3",
-		"vitest": "4.0.16"
+		"vitest": "4.0.17"
 	},
 	"packageManager": "bun@1.0.31"
 }
