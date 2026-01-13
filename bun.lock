@@ -12,7 +12,7 @@
         "@types/node": "24.10.7",
         "@vitest/coverage-v8": "4.0.17",
         "prettier": "3.7.4",
-        "prettier-plugin-packagejson": "2.5.20",
+        "prettier-plugin-packagejson": "2.5.21",
         "tsx": "4.21.0",
         "typescript": "5.9.3",
         "vitest": "4.0.17",
@@ -107,8 +107,6 @@
     "@jridgewell/sourcemap-codec": ["@jridgewell/sourcemap-codec@1.5.5", "", {}, "sha512-cYQ9310grqxueWbl+WuIUIaiUaDcj7WOq5fVhEljNVgRfOUhY9fy2zTvfoqWsnebh8Sl70VScFbICvJnLKB0Og=="],
 
     "@jridgewell/trace-mapping": ["@jridgewell/trace-mapping@0.3.31", "", { "dependencies": { "@jridgewell/resolve-uri": "^3.1.0", "@jridgewell/sourcemap-codec": "^1.4.14" } }, "sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw=="],
-
-    "@pkgr/core": ["@pkgr/core@0.2.9", "", {}, "sha512-QNqXyfVS2wm9hweSYD2O7F0G06uurj9kZ96TRQE5Y9hU7+tgdZwIkbAKc5Ocy1HxEY2kuDQa6cQ1WRs/O5LFKA=="],
 
     "@rollup/rollup-android-arm-eabi": ["@rollup/rollup-android-arm-eabi@4.52.5", "", { "os": "android", "cpu": "arm" }, "sha512-8c1vW4ocv3UOMp9K+gToY5zL2XiiVw3k7f1ksf4yO1FlDFQ1C2u72iACFnSOceJFsWskc2WZNqeRhFRPzv+wtQ=="],
 
@@ -248,7 +246,7 @@
 
     "prettier-config-xo": ["prettier-config-xo@2.0.0", "", {}, "sha512-eVy/64JWpXYEXPMAgpEcpct3TZQurmwxPipx78GqRG6gQtLT6hCYyMUgMzoVz5W3IkxLN371xGVKHNU1MY6FTA=="],
 
-    "prettier-plugin-packagejson": ["prettier-plugin-packagejson@2.5.20", "", { "dependencies": { "sort-package-json": "3.5.0", "synckit": "0.11.11" }, "peerDependencies": { "prettier": ">= 1.16.0" }, "optionalPeers": ["prettier"] }, "sha512-G8cowPh+QmJJECTZlrPDKWkVVcwrFjF2rGcw546w3N8blLoc4szSs8UUPfFVxHUNLUjiru71Ah83g1lZkeK9Bw=="],
+    "prettier-plugin-packagejson": ["prettier-plugin-packagejson@2.5.21", "", { "dependencies": { "sort-package-json": "3.5.0" }, "peerDependencies": { "prettier": ">= 1.16.0" }, "optionalPeers": ["prettier"] }, "sha512-d9ivsysb1SeRaKDhjf6Hi7jBGnP4TVsh7DeVi8N5HtHJ5vwD7YHcQIuy6jRkr2qGW/VKbrEVDWVMODuqcZuz8Q=="],
 
     "resolve-pkg-maps": ["resolve-pkg-maps@1.0.0", "", {}, "sha512-seS2Tj26TBVOC2NIc2rOe2y2ZO7efxITtLZcGSOnHHNOQ7CkiUBfw0Iw2ck6xkIhPwLhKNLS8BO+hEpngQlqzw=="],
 
@@ -269,8 +267,6 @@
     "std-env": ["std-env@3.10.0", "", {}, "sha512-5GS12FdOZNliM5mAOxFRg7Ir0pWz8MdpYm6AY6VPkGpbA7ZzmbzNcBJQ0GPvvyWgcY7QAhCgf9Uy89I03faLkg=="],
 
     "supports-color": ["supports-color@7.2.0", "", { "dependencies": { "has-flag": "^4.0.0" } }, "sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw=="],
-
-    "synckit": ["synckit@0.11.11", "", { "dependencies": { "@pkgr/core": "^0.2.9" } }, "sha512-MeQTA1r0litLUf0Rp/iisCaL8761lKAZHaimlbGK4j0HysC4PLfqygQj9srcs0m2RdtDYnF8UuYyKpbjHYp7Jw=="],
 
     "tinybench": ["tinybench@2.9.0", "", {}, "sha512-0+DUvqWMValLmha6lr4kD8iAMK1HzV0/aKnCtWb9v9641TnP/MFb7Pc2bxoxQjTXAErryXVgUOfv2YqNllqGeg=="],
 
