@@ -41,7 +41,7 @@
 		"@tsconfig/strictest": "2.0.8",
 		"@types/node": "24.10.8",
 		"@vitest/coverage-v8": "4.0.17",
-		"prettier": "3.7.4",
+		"prettier": "3.8.0",
 		"prettier-plugin-packagejson": "2.5.21",
 		"tsx": "4.21.0",
 		"typescript": "5.9.3",
