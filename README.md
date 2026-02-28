@@ -9,7 +9,7 @@ My personal TypeScript starter template.
 
 - Targets the [latest versions of Node.js](./.node-version)
 - Source code, tests, and tooling configs all use ESM
-- 100% TypeScript codebase with [a simple, strict config](./tsconfig.json) via [`@tsconfig/node20`](https://github.com/tsconfig/bases#readme)
+- 100% TypeScript codebase with [a simple, strict config](./tsconfig.json) via [`@tsconfig/node24`](https://github.com/tsconfig/bases#readme)
 - Unit tests via [Vitest](https://vitest.dev/)
 - Great tooling
   - Package management via Bun
