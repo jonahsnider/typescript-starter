@@ -12,7 +12,7 @@
         "@types/node": "24.11.0",
         "@vitest/coverage-v8": "4.0.18",
         "prettier": "3.8.1",
-        "prettier-plugin-packagejson": "3.0.1",
+        "prettier-plugin-packagejson": "3.0.2",
         "tsx": "4.21.0",
         "typescript": "5.9.3",
         "vitest": "4.0.18",
@@ -246,7 +246,7 @@
 
     "prettier-config-xo": ["prettier-config-xo@2.0.0", "", {}, "sha512-eVy/64JWpXYEXPMAgpEcpct3TZQurmwxPipx78GqRG6gQtLT6hCYyMUgMzoVz5W3IkxLN371xGVKHNU1MY6FTA=="],
 
-    "prettier-plugin-packagejson": ["prettier-plugin-packagejson@3.0.1", "", { "dependencies": { "sort-package-json": "3.6.0" }, "peerDependencies": { "prettier": "^3" }, "optionalPeers": ["prettier"] }, "sha512-dGMMVROGzziTdLlFNoOhJyDafp29ynxWLam7WPFX8O/iR0osRedi7ZAAz+Hy2//pXhLUrB9QvIQZjxpynQJzsw=="],
+    "prettier-plugin-packagejson": ["prettier-plugin-packagejson@3.0.2", "", { "dependencies": { "sort-package-json": "^3.6.0" }, "peerDependencies": { "prettier": "^3" }, "optionalPeers": ["prettier"] }, "sha512-kmoj3hEynXwoHDo8ZhmWAIjRBoQWCDUVackiWfSDWdgD0rS3LGB61T9zoVbume/cotYdCoadUh4sqViAmXvpBQ=="],
 
     "resolve-pkg-maps": ["resolve-pkg-maps@1.0.0", "", {}, "sha512-seS2Tj26TBVOC2NIc2rOe2y2ZO7efxITtLZcGSOnHHNOQ7CkiUBfw0Iw2ck6xkIhPwLhKNLS8BO+hEpngQlqzw=="],
 
