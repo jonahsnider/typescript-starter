@@ -7,7 +7,8 @@
 		"noUnusedLocals": false,
 		"noUnusedParameters": false,
 		"outDir": "dist",
-		"resolveJsonModule": true
+		"resolveJsonModule": true,
+		"rootDir": "./src"
 	},
 	"exclude": ["node_modules", "coverage", "src/**/*.test.ts"],
 	"extends": ["@tsconfig/strictest", "@tsconfig/node24"],
