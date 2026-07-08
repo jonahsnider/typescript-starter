@@ -11,6 +11,6 @@
 		"rootDir": "./src"
 	},
 	"exclude": ["node_modules", "coverage", "src/**/*.test.ts"],
-	"extends": ["@tsconfig/strictest", "@tsconfig/node24"],
+	"extends": ["@tsconfig/strictest", "@tsconfig/node26"],
 	"include": ["src"]
 }
